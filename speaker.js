@@ -1,6 +1,6 @@
 var peer = new Peer("speaker", {
     host: 'peer.us-3.evennode.com',
-    port: 9000
+    port: 3000
 });
 
 //var peer = new Peer({key:"d499201jt2dibe29",secure:true});
