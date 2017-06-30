@@ -1,9 +1,9 @@
-/*var peer = new Peer({
-    host: 'localhost',
+var peer = new Peer({
+    host: 'peer.us-3.evennode.com',
     port: 9000
-});*/
+});
 
-var peer = new Peer({key:"d499201jt2dibe29",secure:true});
+//var peer = new Peer({key:"d499201jt2dibe29",secure:true});
 peer.on('open', function(id) {
     navigator.mediaDevices.getUserMedia({ audio: true }).then(function(mediaStream) {
         // Call a peer, providing our mediaStream
