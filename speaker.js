@@ -3,7 +3,7 @@
     port: 9000
 });
 */
-var peer = new Peer({key:"d499201jt2dibe29"});
+var peer = new Peer({key:"d499201jt2dibe29",secure:true});
 
 peer.on('open', function(id) {
     navigator.mediaDevices.getUserMedia({ audio: true }).then(function(mediaStream) {
