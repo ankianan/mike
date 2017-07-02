@@ -1,12 +1,22 @@
 # mike
 
-Mike is a moder world audio brodcaster which uses p2p connections.
+Mike is a modern world audio brodcaster which uses p2p connections.
 
 ## How it works
-- Broadcaster share its peer id to other peers.
-- Listener connect to broadcaster.
-- Live audio stream is broadcasted.
+- Start file server 'node server.js' default port 3000.
+- Start peer server 'node peerServer.js' default port 9000.
+- Edit host in speaker.js and listener.js with IP of peer server.
+- Open https://<node-server-ip>:3000/speaker.html
+- Open https://<node-server-ip>:3000/listener.html
 
 ## Technology
 - Peerjs
-- Media API
+- MediaStream API
+
+### Changelog
+- HTTPS support added
+
+### FAQ
+- Why I get https certificate error?
+You can proceed with it as we are using self generated certificates.
+
