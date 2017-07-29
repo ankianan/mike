@@ -7,7 +7,7 @@ Mike is a modern world audio brodcaster which uses p2p connections.
 - Start peer server 'node peerServer.js' default port 9000.
 - Edit host in speaker.js and listener.js with IP of peer server.
 - Open https://&lt;node-server-ip&gt;:3000/speaker.html
-- Open https://lt;node-server-ip&gt;:3000/listener.html
+- Open https://&lt;node-server-ip&gt;:3000/listener.html
 
 ## Technology
 - Peerjs
